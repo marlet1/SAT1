@@ -1,8 +1,8 @@
 package test1.SAT1.testex;
 
-import java.lang.reflect.Parameter;
-
 public class r {
+    private static int r;
+
     public static void main(String[] args) {
         int a=41;
         int b=10;
@@ -10,9 +10,15 @@ public class r {
         c= a>b;
         boolean d=c=true;
         boolean e=d=false;
-        System.out.println(!(e));
         if (!e){
             System.out.println(e);
+        String mimetype="application/x-msdownload";
+            int result=getBrowser();
+            System.out.println(result);
         }
+    }
+
+    private static int getBrowser() {
+    return r=1;
     }
 }
