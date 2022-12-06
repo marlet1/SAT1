@@ -15,6 +15,7 @@ public class r {
         String mimetype="application/x-msdownload";
             int result=getBrowser();
             System.out.println(result);
+            int ssss;
         }
     }
 
